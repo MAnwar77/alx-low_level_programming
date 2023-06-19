@@ -14,7 +14,7 @@ int main(void)
 
 	while (digit >= 0)
 	{
-		putchar(digit + 57);
+		putchar(digit - 57);
 		digit--;
 	}
 	putchar(", \n");
