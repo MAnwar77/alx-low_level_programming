@@ -11,20 +11,20 @@
 int main(void)
 {
 	char ch = 'a';
+	char CH = 'A';
 
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	char ch = 'A';
 
-	while (ch <= 'Z')
+	while (CH <= 'Z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(CH);
+		CH++;
 	}
-	putchar(' \n');
+	putchar('\n');
 
 	return (0);
 }
