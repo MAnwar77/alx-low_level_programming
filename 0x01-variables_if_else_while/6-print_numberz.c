@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	int = 49;
+	int digit = 0;
 
-	while (int <= 57)
+	while (digit <= 9)
 	{
-		putchar(int);
-		int++;
+		putchar(digit + '0');
+		digit++;
 	}
 	putchar("\n");
 
