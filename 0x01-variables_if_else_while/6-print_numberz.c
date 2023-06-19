@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	char ch = '49';
+	char ch = 49;
 
-	while (ch <= '57')
+	while (ch <= 57)
 	{
 		putchar(ch);
 		ch++;
