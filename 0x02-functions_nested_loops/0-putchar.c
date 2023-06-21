@@ -5,13 +5,13 @@
  *
  * Description: Print _putchar
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
 	char str[] = "_putchar";
-	int cg;
+	int ch;
 
 	for (ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
