@@ -12,7 +12,13 @@ void more_numbers(void)
 	for (line = 1; line <= 10; line++)
 	{
 		for (ch = 48; ch <= 4952; ch++)
-			_putchar(ch);
+		{
+			if (ch > 57)
+			{
+				_putchar(49 + 48);
+				ch = ch % 10;
+			}
+			_putchar(ch + 48);
 		_putchar('\n');
 	}
 }
