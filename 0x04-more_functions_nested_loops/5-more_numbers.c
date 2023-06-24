@@ -13,6 +13,7 @@ void more_numbers(void)
 	{
 		for (ch = 48; ch <= 4952; ch++)
 			_putchar(ch);
+			_putchar(ch + 48);
 		_putchar('\n');
 	}
 }
