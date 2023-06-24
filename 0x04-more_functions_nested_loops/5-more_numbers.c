@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (line = 1; line <= 10; line++)
 	{
-		for (ch = 48; ch <= 4952; ch++)
+		for (ch = 48; ch <= 57; ch++)
 		{
 			if (ch > 57)
 			{
