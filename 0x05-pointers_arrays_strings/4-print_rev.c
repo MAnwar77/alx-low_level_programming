@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_rev - mai function
@@ -22,5 +22,4 @@ void print_rev(char *s)
 		i--;
 	}
 	_putchar('\n');
-
 }
