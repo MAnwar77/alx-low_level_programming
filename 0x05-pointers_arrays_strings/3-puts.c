@@ -7,13 +7,13 @@
  * @str: This is my input string
  *
 */
+
 void _puts(char *str)
 {
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
+	while (*str)
 	{
-		_putchar(str[index]);
+		_putchar(*str);
+		str++;
 	}
 	_putchar('\n');
 }
